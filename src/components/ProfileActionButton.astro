@@ -33,13 +33,10 @@ const { linkedin } = ME.contactInfo;
 </div>
 
 <script>
-  const cvBtn = document.getElementById("cvBtn");
+  const cvBtn = document.getElementById("cvBtn") as HTMLButtonElement;
   const resume = cvBtn.dataset.cv;
 
   cvBtn.addEventListener("click", () => {
-    const link = document.createElement("a");
-    link.href = resume;
-    link.download = "CV_Ricardo_Moreno.pdf";
-    link.click();
+    window.open(resume, "_blank");
   });
 </script>

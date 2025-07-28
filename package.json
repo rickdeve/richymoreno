@@ -1,33 +1,5 @@
 {
-  "name": "astro-simple-portfolio",
-  "type": "module",
-  "version": "1.1.0",
-  "description": "free and open-source portfolio template site built with Astro.",
-  "license": "MIT",
-  "private": true,
-  "author": {
-    "name": "Victor Alvarado"
-  },
-  "homepage": "https://simple-portfolio.vicbox.dev",
-  "contributors": [
-    {
-      "name": "Victor Alvarado",
-      "email": "victoralvarado.dev@gmail.com",
-      "url": "https://victoralvarado.dev"
-    }
-  ],
-  "keywords": [
-    "portfolio",
-    "Astro",
-    "react",
-    "tailwindcss",
-    "typescript",
-    "shadCn"
-  ],
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
+  
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",

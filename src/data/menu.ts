@@ -5,10 +5,10 @@ export const menu = [
     },
     {
         href: '/projects',
-        label: 'Projects',
+        label: 'Proyectos',
     },
-    {
+    /*{
         href: '/blog',
         label: 'Blog',
-    },
+    },*/
 ]

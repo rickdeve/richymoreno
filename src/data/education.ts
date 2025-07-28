@@ -8,34 +8,16 @@ interface Education {
     currentUni: boolean;
 }
 
-const  education: Education[] = [
+const education: Education[] = [
     {
-        title: "General English",
-        startDate: "2024-09-01",
-        endDate: "",
-        school: "University Name",
-        location: "United States",
-        description: "Developed and maintained web applications using React, NodeJs, and MongoDB.",
-        currentUni: true,
-    },
-    {
-        title: "Bachelor of Science in Computer Science",
-        startDate: "2014-09-01",
-        endDate: "2018-06-30",
-        school: "University Name",
-        location: "United States",
-        description: "Developed and maintained web applications using React, NodeJs, and MongoDB.",
+        title: "TecNM - Campus Colima",
+        startDate: "2013-01-02",
+        endDate: "2018-12-12",
+        school: "Instituto Tecnológico De Colima",
+        location: "Colima, México",
+        description: "ingenieria en sistemas computacionales con enfoque en desarrollo de software, bases de datos y tecnologías emergentes.",
         currentUni: false,
-    },
-    {
-        title: "Bachelor of Science in Computer Science",
-        startDate: "2012-09-01",
-        endDate: "2013-06-30",
-        school: "University Name",
-        location: "United States",
-        description: "Developed and maintained web applications using React, NodeJs, and MongoDB.",
-        currentUni: false,
-    },
+    }
 ];
 
 export default education;

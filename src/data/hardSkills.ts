@@ -6,24 +6,44 @@ interface HardSkill {
 
 const hardSkills: HardSkill[] = [
   {
-    name: "AstroJs",
-    description: "My favorite static site generator for building modern websites",
-    icon: "astro_dark"
+    name: "Ionic",
+    description: "Framework preferido para desarrollo móvil híbrido multiplataforma con Angular y TypeScript.",
+    icon: "react"
   },
   {
-    name: "NextJs",
-    description: "My favorite React framework for building modern web apps",
-    icon: "nextjs_icon_dark"
+    name: "Angular / Angular SSR",
+    description: "Amplia experiencia en desarrollo de SPAs y aplicaciones con renderizado del lado del servidor para mejorar SEO y rendimiento.",
+    icon: "angular"
   },
   {
-    name: "NodeJs",
-    description: "I've been using NodeJs for backend development since 2018",
-    icon: "nodejs"
+    name: ".NET Web APIs",
+    description: "Integración y desarrollo de APIs RESTful para backend robusto y escalable.",
+    icon: "donet"
   },
   {
-    name: "MongoDB",
-    description: "My favorite database for modern apps",
-    icon: "mongodb"
+    name: "Cosmos DB / SQL Server / MySQL",
+    description: "Manejo de bases de datos NoSQL y relacionales para distintos tipos de aplicaciones.",
+    icon: "db"
+  },
+  {
+    name: "Laravel (PHP)",
+    description: "Framework backend utilizado para construir APIs y sistemas administrativos con arquitectura sólida y segura.",
+    icon: "laravel"
+  },
+  {
+    name: "Firebase",
+    description: "Utilizado para autenticación, notificaciones push y base de datos en tiempo real.",
+    icon: "firebase"
+  },
+  {
+    name: "Vue.js",
+    description: "Uso de Vue en proyectos frontend para interfaces ligeras y reactivas, con Vue Router y Vuex.",
+    icon: "vue"
+  },
+  {
+    name: "React / React Native",
+    description: "Experiencia en desarrollo web y móvil, con enfoque en UX y rendimiento.",
+    icon: "react"
   }
 ];
 

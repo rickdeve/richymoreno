@@ -33,7 +33,7 @@ export const ME = {
     ],
     contactInfo: {
         linkedin: "https://www.linkedin.com/in/richymoreno/",
-        resumeDoc: "https://github.com/rickdeve/richymoreno/blob/master/src/assets/CV_Ricardo_Moreno.pdf",
+        resumeDoc: "CV_Ricardo_Moreno.pdf",
     },
     aboutMe: "Especialista en desarrollo de software y tecnologías emergentes con 7 años de experiencia en el diseño e implementación de soluciones innovadoras para aplicaciones web y móviles. Apasionado por la optimización de sistemas y el desarrollo eficiente, utilizando tecnologías de vanguardia para garantizar productos escalables y de alto rendimiento.",
 }
